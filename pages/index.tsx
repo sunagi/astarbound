@@ -25,10 +25,10 @@ const Home: NextPage = () => {
     <Container maxWidth="lg">
       {address ? (
         <div className={styles.container}>
-          <h1>Your NFTs</h1>
+          <h1>CopyrightNFT</h1>
           <p>
-            Browse the NFTs inside your personal wallet, select one to connect a
-            token bound smart wallet & view it&apos;s balance.
+            Browse the NFTs inside your Creation NFT, select one to connect a
+            token bound smart wallet & view it.
           </p>
           <NFTGrid
             nfts={nfts}
